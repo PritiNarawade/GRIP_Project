@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(0, 0, 0, 0.507);
+}
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.navbar-brand{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.5rem;
+  color: #5f6368;
+}
+
+.nav-link{
+  color: #5f6368;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+  background-color: grey;
+  background-image: linear-gradient(120deg,
+  rgb(240, 117, 46),
+  rgba(250, 248, 118, 0.821)
+  );
+  transition: all ease 0.2s;
+}
+
+.navbar-toggler{
+position: left;
+color: rgb(211, 48, 48);
+}
+.navbar-toggler:hover{
+  background-image: linear-gradient(120deg,
+  rgb(197, 42, 217),
+  rgba(250, 27, 83, 0.562)
+  );
+  transition: all ease 0.2s;
+}
+.logo img{
+  height: 55px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Transfer{
+ width: 160px;
+ height: 33px;
+ display: flex;
+ margin-bottom: -80px;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ background-color: #1db096;
+ border-radius: 20px;
+ border: none;
+ box-shadow: 5px 10px 30px rgba(89, 226, 203, 0.2);
+ padding: 1rem 2rem;
+ transition: 0.2s;
+ text-decoration: none;
+}
+.Transfer:hover{
+  background-image: linear-gradient(120deg,
+  hsl(192, 70%, 51%),
+  hsl(136, 65% ,51%)                    
+  );
+  transition: all ease 0.2s;
+  text-decoration: none;
+}
+
+.activity{
+  display: flex;
+  cursor: pointer;
+  margin-top: -250px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: -80px;
+  position: relative;
+  font-family: 'Sansita Swashed', cursive;
+}
+.wrapper img{
+  width: 80%;
+  margin-right: 30px; 
+  margin-left: 0px;
+  position: relative;
+  padding-top: 0px;
+}
+ 
+ .wrapper1 img{
+  width: 100%;
+  margin: 0px; 
+  position: relative;
+  padding-top: 0px;
+}
+.wrapper img:hover{
+  background-image: linear-gradient(120deg,
+  hsla(280, 2%, 37%, 0.796),
+  rgba(19, 11, 11, 0.419)
+  );
+  color: whitesmoke;
+  box-shadow: 5px 10px 30px rgba(24, 23, 23, 0.842);
+  transition: all ease 0.2s;
+}
+
+.wrapper1 img:hover{
+  background-image: linear-gradient(120deg,
+  hsl(240, 2%, 8%),
+  rgb(53, 52, 52)
+  );
+  color: whitesmoke;
+  box-shadow: 5px 10px 30px rgba(77, 70, 74, 0.842);
+  transition: all ease 0.2s;
+}
+.activity a:hover{
+  background-image: linear-gradient(120deg,
+  hsl(159, 70%, 74%, 0.933),
+  rgb(130, 247, 206)
+  );
+  color: hsla(120, 2%, 9%, 0.933);
+  box-shadow: 5px 10px 30px rgba(119, 237, 188, 0.842);
+  transition: all ease 0.2s;
+  text-decoration: none;
+}
+.container{
+  margin-top: -300px;
+}
+.t-title{
+  align-content: center;
+  position: relative;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.5rem;
+  color:rgb(18, 4, 39);
+
+}
+
+footer{
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 1.2rem;
+  color: #5f6368;
+  align-items: center;
+}
+footer:hover{
+  background-image: linear-gradient(120deg,
+  rgba(184, 184, 172, 0.562),
+  rgb(255, 253, 253)
+  );
+  transition: all ease 0.2s;
+}
+
+.social-icons li{ 
+list-style: none;
+display: inline; 
+padding: 0.5rem; 
+} 
+
+.github{ 
+color: #24292e; 
+} 
+
+.linkedin{ 
+color: #0077b5;
+}

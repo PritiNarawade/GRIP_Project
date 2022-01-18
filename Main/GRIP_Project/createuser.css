@@ -1,0 +1,109 @@
+button,input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; letter-spacing: 1.4px; } 
+.background { 
+  width: 100%; 
+  display: flex; 
+} 
+.screen {
+  position: relative;
+  background: #d9d9d9; 
+  border-radius: 15px; 
+  box-shadow: 5px 10px 10px rgba(53, 50, 50, 0.25); 
+} 
+.screen-header { 
+  display: flex; 
+  align-items: center; 
+  padding: 10px 20px; 
+  background: #7B8788; 
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px; 
+} 
+.screen-header-right { 
+  display: flex; 
+} 
+.screen-header-ellipsis { 
+  width: 5px; 
+  height: 5px; 
+  margin-left: 3px; 
+  border-radius: 8px; 
+  background: #d9d9d9; 
+} 
+.screen-body { 
+  display: flex; 
+} 
+.screen-body-item { 
+  flex: 1; 
+  padding: 50px; 
+} 
+.app-form-group { 
+  margin-bottom: 15px; 
+} 
+.app-form-group.button { 
+  margin-bottom: 0; 
+  text-align: right; 
+  position: absolute; 
+  bottom: 30px; 
+  right:40px; 
+} 
+.app-form-control{ 
+  width: 100%; 
+  padding: 10px 0; 
+  background: none; 
+  border: none; 
+  border-bottom: 1px solid #4C4B4B; 
+  color: #4b4c4c; 
+  font-size: 14px; 
+  outline: none; 
+  transition: 2s; 
+} 
+.app-form-control::placeholder {
+  color: rgb(102, 102, 102); 
+} 
+.app-form-control:focus { 
+  border-bottom-color: #4C4B4B; 
+} 
+.app-form-button { 
+  background-color: rgb(42, 183, 204);
+  border: none;  
+  font-size: 14px; 
+  cursor: pointer; 
+  outline: none; 
+  width: 160px;
+  height: 33px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(145, 241, 225, 0.2);
+  transition: 0.2s;
+} 
+.app-form-button:hover{
+  background-image: linear-gradient(120deg,
+  rgb(42, 191, 217),
+  rgba(133, 94, 241, 0.76)
+  );
+  transition: all ease 0.2s;
+}
+@media screen and (max-width: 520px) { *{ letter-spacing:1px; } 
+.container{ 
+  margin-left: 20px; 
+  margin-right: 20px; 
+  margin-bottom: 40px; 
+} 
+.screen-body { 
+  flex-direction: column; 
+} 
+.screen-body-item.left { 
+  margin-bottom: 50px; 
+} 
+.app-form-button{
+  margin-top:5px; 
+} }
+@media screen and (max-width: 600px) { 
+.screen-body{
+  padding: 40px; 
+} 
+.screen-body-item {
+  padding: 0; 
+} }
